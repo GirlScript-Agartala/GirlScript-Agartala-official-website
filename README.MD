@@ -3,6 +3,7 @@
 Official Website: https://girlscript-agartala.netlify.app
 
 # Team Members:
+- Antaripa Saha       `(Campus Hero)`
 - Shaona Kundu        `(Campus Hero)`
 - Anirban Banik       `(Campus Hero)`
 - Ayesha Sen          `(Campus Hero)`
