@@ -3,18 +3,18 @@ Vue.config.devtools = true;
 Vue.component('Card', {
     template: `
     <div class="card-wrap"
-      @mousemove="handleMouseMove"
-      @mouseenter="handleMouseEnter"
-      @mouseleave="handleMouseLeave"
-      ref="Card">
-      <div class="Card"
+        @mousemove="handleMouseMove"
+        @mouseenter="handleMouseEnter"
+        @mouseleave="handleMouseLeave"
+        ref="Card">
+        <div class="Card members"
         :style="cardStyle">
         <div class="card-Bg" :style="[cardBgTransform, cardBgImage]"></div>
         <div class="card-info">
-          <slot name="header"></slot>
-          <slot name="content"></slot>
+            <slot name="header"></slot>
+            <slot name="content"></slot>
+            </div>
         </div>
-      </div>
     </div>`,
     mounted() {
         this.width = this.$refs.Card.offsetWidth;
@@ -59,8 +59,8 @@ Vue.component('Card', {
 
     methods: {
         handleMouseMove(e) {
-            this.mouseX = e.pageX - this.$refs.Card.offsetLeft - this.width / 2;
-            this.mouseY = e.pageY - this.$refs.Card.offsetTop - this.height / 2;
+            this.mouseX = 0; //e.pageX - this.$refs.Card.offsetLeft - this.width / 2;
+            this.mouseY = 0; //e.pageY - this.$refs.Card.offsetTop - this.height / 2;
         },
         handleMouseEnter() {
             clearTimeout(this.mouseLeaveDelay);
@@ -69,7 +69,7 @@ Vue.component('Card', {
             this.mouseLeaveDelay = setTimeout(() => {
                 this.mouseX = 0;
                 this.mouseY = 0;
-            }, 1000);
+            }, 150);
         }
     }
 });
