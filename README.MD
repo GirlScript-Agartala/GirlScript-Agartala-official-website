@@ -1,6 +1,6 @@
 # GirlScript-Agartala Official Website
 
-Official Website: https://girlscript-agartala.netlify.app/)
+Official Website: https://girlscript-agartala.netlify.app
 
 # Team Members:
 - Shaona Kundu        `(Campus Hero)`
