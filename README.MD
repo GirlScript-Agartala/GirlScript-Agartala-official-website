@@ -1,20 +1,20 @@
 # GirlScript-Agartala Official Website
 
-[Official Website](https://girlscript-agartala.netlify.app/)
+Official Website: https://girlscript-agartala.netlify.app/)
 
 # Team Members:
-- Shaona Kundu        (Campus Hero)
-- Anirban Banik       (Campus Hero)
-- Ayesha Sen          (Campus Hero)
-- Pinaki Sen          (Technical Lead)
-- Deepraj Baidya      (Technical Lead)
-- Ayush Ranjan Singh  (Social Media Lead)
-- Rohit Saha          (Graphic Designing Lead)
-- Susanka Majumder    (Website Development Lead)
-- Mansi Maurya        (Website Development)
-- Aditya Jee          (Management and Logistics)
-- Arka Dutta          (Management and Logistics)
-- Saurav Chaurasia    (Management and Logistics)
-- Vijay Daloiya       (Marketing Lead)
-- Ashmeet Sahni       (Content Lead)
-- Shivani Golhani     (Publicity and Outreach Lead)
+- Shaona Kundu        `(Campus Hero)`
+- Anirban Banik       `(Campus Hero)`
+- Ayesha Sen          `(Campus Hero)`
+- Pinaki Sen          `(Technical Lead)`
+- Deepraj Baidya      `(Technical Lead)`
+- Ayush Ranjan Singh  `(Social Media Lead)`
+- Rohit Saha          `(Graphic Designing Lead)`
+- Susanka Majumder    `(Website Development Lead)`
+- Mansi Maurya        `(Website Development)`
+- Aditya Jee          `(Management and Logistics)`
+- Arka Dutta          `(Management and Logistics)`
+- Saurav Chaurasia    `(Management and Logistics)`
+- Vijay Daloiya       `(Marketing Lead)`
+- Ashmeet Sahni       `(Content Lead)`
+- Shivani Golhani     `(Publicity and Outreach Lead)`
