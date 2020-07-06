@@ -8,18 +8,14 @@ Vue.component('Card', {
         @mouseleave="handleMouseLeave"
         ref="Card">
         <div class="Card members"
-        :style="cardStyle">
-        <div class="card-Bg" :style="[cardBgTransform, cardBgImage]"></div>
+        :style="">
+        <div class="card-Bg" :style="[cardBgImage]"></div>
         <div class="card-info">
             <slot name="header"></slot>
             <slot name="content"></slot>
             </div>
         </div>
     </div>`,
-    mounted() {
-        this.width = this.$refs.Card.offsetWidth;
-        this.height = this.$refs.Card.offsetHeight;
-    },
     props: ['dataImage'],
     data: () => ({
         width: 0,
@@ -30,26 +26,6 @@ Vue.component('Card', {
     }),
 
     computed: {
-        mousePX() {
-            return this.mouseX / this.width;
-        },
-        mousePY() {
-            return this.mouseY / this.height;
-        },
-        cardStyle() {
-            const rX = this.mousePX * 30;
-            const rY = this.mousePY * -30;
-            return {
-                transform: `rotateY(${rX}deg) rotateX(${rY}deg)`
-            };
-        },
-        cardBgTransform() {
-            const tX = this.mousePX * -40;
-            const tY = this.mousePY * -40;
-            return {
-                transform: `translateX(${tX}px) translateY(${tY}px)`
-            };
-        },
         cardBgImage() {
             return {
                 backgroundImage: `url(${this.dataImage})`
@@ -59,8 +35,8 @@ Vue.component('Card', {
 
     methods: {
         handleMouseMove(e) {
-            this.mouseX = 0; //e.pageX - this.$refs.Card.offsetLeft - this.width / 2;
-            this.mouseY = 0; //e.pageY - this.$refs.Card.offsetTop - this.height / 2;
+            this.mouseX = 0;
+            this.mouseY = 0;
         },
         handleMouseEnter() {
             clearTimeout(this.mouseLeaveDelay);
@@ -69,7 +45,7 @@ Vue.component('Card', {
             this.mouseLeaveDelay = setTimeout(() => {
                 this.mouseX = 0;
                 this.mouseY = 0;
-            }, 150);
+            }, 10);
         }
     }
 });
@@ -80,6 +56,23 @@ const board = new Vue({
 
 const technical = new Vue({
     el: '#technical'
+});
+
+const socialMedia = new Vue({
+    el: '#socialMedia'
+});
+
+
+const nonTech = new Vue({
+    el: '#nonTech'
+});
+
+const webDev = new Vue({
+    el: '#webDev'
+});
+
+const campusHero = new Vue({
+    el: '#campusHero'
 });
 
 const creatives = new Vue({
