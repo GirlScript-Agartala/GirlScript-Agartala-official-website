@@ -14,6 +14,7 @@ function validateEmail(emailID) {
 		dotpos = emailID.lastIndexOf('.');
     return (atpos < 1 || dotpos - atpos < 2);
 }
+console.log("Hail HYDRA! JS loaded successfully")
 
 function displayError(tagName, tag, lessLength = false) {
 	let errorBlock = $(`#error-${tagName}`);
