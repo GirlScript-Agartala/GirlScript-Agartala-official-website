@@ -5,47 +5,9 @@
     <title>GirlScript Website Boilerplate | Team</title>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta name="google-site-verification" content="e0dcB4k63dAZ7bMt_F9jWwZadbNO18iuZ_NZKDEavJs" />
-    <meta name="keywords" content="tech events, coding competition, introduction to coding, computer coding for beginners, girls who code program, coding contest, coding competition, girls can code, introduction to programming, learn computer programming"
-    />
-    <meta name="description" content="This website is a base for Chennai chapter, and serves a template for other chapters. All the channel-specific tech events, coding competitions, and other resources are mentioned in this website." />
-
-    <meta name="application-name" content="GirlScript Website Boilerplate | Team" />
-    <meta name="author" content="GirlScript Website BoilerPlate" />
-
-    <meta name="robots" content="index,follow" />
-    <meta name="Googlebot" content="index,follow" />
-    <meta name="AdsBot-Google" content="index,follow" />
-
-    <meta name="designer" content="GirlScript Website Boilerplate | Team" />
-    <meta name="copyright" content="GirlScript Website Boilerplate | Team" />
-
-    <meta name="abstract" content="This website is a base for Chennai chapter, and serves a template for other chapters. All the channel-specific tech events, coding competitions, and other resources are mentioned in this website." />
-
-    <meta name="topic" content="GirlScript Foundation-Chennai Chapter | Team" />
-
-    <meta name="summary" content="This website is a base for Chennai chapter, and serves a template for other chapters. All the channel-specific tech events, coding competitions, and other resources are mentioned in this website." />
-
-    <meta name="msapplication-tooltip" content="GirlScript Chennai is a website for the Chennai Chapter that showcases events and opportunities in Chennai." />
-
-    <meta name="apple-mobile-web-app-title" content="GirlScript Foundation-Chennai Chapter | Team" />
-
-    <meta name="og:site_name" content="https://girlscriptboilerplate.netlify.app/team.html" />
-    <meta name="og:title" content="GirlScript Foundation-Chennai Chapter | Team" />
-    <meta name="og:url" content="https://girlscriptboilerplate.netlify.app/team.html" />
     <meta name="og:image" content="assets/Images/logo/gs_chennai_logo2/.png" />
 
     <link rel="icon" href="assets/Images/logo/gs.png" type="image/png" sizes="16x16" />
-
-    <link rel="index" title="GirlScript Foundation-Chennai Chapter | Team" href="https://girlscriptboilerplate.netlify.app/team.html" />
-
-    <link rel="start" title="GirlScript Foundation-Chennai Chapter | Team" href="https://girlscriptboilerplate.netlify.app/" />
-
-    <link rel="prev" title="GirlScript Foundation-Chennai Chapter | Team" href="https://girlscriptboilerplate.netlify.app/" />
-
-    <link rel="next" title="GirlScript Foundation-Chennai Chapter | Team" href="https://girlscriptboilerplate.netlify.app/team.html" />
-
-    <link rel="search" href="https://girlscriptboilerplate.netlify.app/team.html" type="application/opensearchdescription+xml" title="GirlScript Foundation-Chennai Chapter | Team" />
 
     <!-- Google Font Api -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
@@ -64,9 +26,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/team.css" />
+    <link rel="stylesheet" type="text/css" href="css/team_style.css" />
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-
 </head>
 
 <body>
@@ -94,41 +56,52 @@
     <!-- #######################  Chapter Leads ##########################################-->
     <h1 class="team-center-heading">The <span>Chapter Leads</span></h1>
     <br />
-    <div id="chapterLead" class="container-cards bootstrap-off">
-        <!-- Cards -->
-        <card data-image="./assets/Images/team/AmitKumar.jpg">
-            <h1 slot="header">Amit Kumar</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>The Chapter Lead</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/AntaripaSaha.png">
-            <h1 slot="header">Antaripa Saha</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>The Chapter Lead</span>
-            </p>
-        </card>
-    </div>
+    <section id="work-a" class="text-center py-3">
+        <div class="container">
+            <div class="items chapterleads">
+
+                <div class="item" onmouseover="hide('cl1')" onmouseout="show('cl1')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/AmitKumar.jpg" height="300px" style="transform: scale(1.5); left:50px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="cl1" class="name-tag" style="transform: translateY(165px);">AMIT KUMAR</h2>
+                            <p class="details-tag item-text-category">Chapter Lead</p>
+                            <h2 class="item-text-title details-tag">Amit Kumar</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('cl2')" onmouseout="show('cl2')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/AntaripaSaha.png" style="top:-50px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="cl2" class="name-tag" style="transform: translateY(195px);">Antaripa Saha</h2>
+                            <p class="details-tag item-text-category">Chapter Lead</p>
+                            <h2 class="item-text-title details-tag">Antaripa Saha</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- ####################### The Campus Heroes ##########################################-->
     <br /><br />
@@ -136,60 +109,75 @@
     <br />
     <h1 class="team-center-heading">The Campus <span>Heroes</span></h1>
     <br />
-    <div id="campusHero" class="container-cards bootstrap-off">
-        <!-- Cards -->
-        <card data-image="./assets/Images/team/ShaonaKundu.jpg">
-            <h1 slot="header">Shaona Kundu</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>The Campus Hero</span><br>
-                <span>IIIT, Agartala</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Anirban Banik</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>The Campus Hero</span><br>
-                <span>TIT, Agartala</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Ayesha Sen</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>The Campus Hero</span> <br>
-                <span>TCE, Agartala</span>
-            </p>
-        </card>
-    </div>
+
+    <section id="work-a" class="text-center py-3">
+        <div class="container">
+            <div class="items">
+
+                <div class="item" onmouseover="hide('ch1')" onmouseout="show('ch1')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/ShaonaKundu.jpg" height="300px" style="transform: scale(1.5); left:50px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="ch1" class="name-tag" style="transform: translateY(185px);">Shaona Kundu</h2>
+                            <p class="details-tag item-text-category">The Campus Hero</p>
+                            <h2 class="item-text-title details-tag">Shaona Kundu</h2>
+                            <p class="details-tag item-text-category">IIIT, Agartala</p>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('ch2')" onmouseout="show('ch2')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/default_member.png" style="top:-50px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="ch2" class="name-tag" style="transform: translateY(195px);">Anirban Banik</h2>
+                            <p class="details-tag item-text-category">The Campus Hero</p>
+                            <h2 class="item-text-title details-tag">Anirban Banik</h2>
+                            <p class="details-tag item-text-category">TIT, Agartala</p>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('ch3')" onmouseout="show('ch3')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/default_member.png" height="300px" style="left:50px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="ch3" class="name-tag" style="transform: translateY(165px);">Ayesha Sen</h2>
+                            <p class="details-tag item-text-category">The Campus Hero</p>
+                            <h2 class="item-text-title details-tag">Ayesha Sen</h2>
+                            <p class="details-tag item-text-category">TCE, Agartala</p>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- ####################### The Technical Team ##########################################-->
     <br /><br />
@@ -197,131 +185,163 @@
     <br />
     <h1 class="team-center-heading">The Technical <span>Team</span></h1>
     <br />
-    <div id="technical" class="container-cards bootstrap-off">
-        <!-- Cards  -->
-        <card data-image="./assets/Images/team/PinakiSen.png">
-            <h1 slot="header">Pinaki Sen</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Technical Lead</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/deepraj1729.jpg">
-            <h1 slot="header">Deepraj Baidya</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Technical Lead</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/JashAcharjee.jpeg">
-            <h1 slot="header">Jashaswimalya Acharjee</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Technical Skills Coordinator</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Yogesh Pathak</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Technical Skills Coordinator</span>
-            </p>
-        </card>
-    </div>
 
-    <!-- ####################### The Web/Designing Team ##########################################-->
+    <section id="work-a" class="text-center py-3">
+        <div class="container">
+            <div class="items four_member">
+
+                <div class="item" onmouseover="hide('tt1')" onmouseout="show('tt1')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/PinakiSen.png" height="300px" style="transform: scale(1.2);top: -5px;left: -10px"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="tt1" class="name-tag" style="transform: translateY(185px);">Pinaki Sen</h2>
+                            <p class="details-tag item-text-category">Technical Lead</p>
+                            <h2 class="item-text-title details-tag">Pinaki Sen</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('tt2')" onmouseout="show('tt2')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/DeeprajBaidya.jpg" style="transform: scale(1.1);top: 10px;left:10px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="tt2" class="name-tag" style="transform: translateY(185px);">Deepraj Baidya</h2>
+                            <p class="details-tag item-text-category">Technical Lead</p>
+                            <h2 class="item-text-title details-tag">Deepraj Baidya</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('tt3')" onmouseout="show('tt3')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/JashAcharjee.jpeg" height="300px" style="transform: scale(1); top: -47px"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="tt3" class="name-tag" style="transform: translateY(195px); font-size: 30px">Jashaswimalya Acharjee</h2>
+                            <p class="details-tag item-text-category">Technical Skills Coordinator</p>
+                            <h2 class="item-text-title details-tag">Jashaswimalya Acharjee</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('tt4')" onmouseout="show('tt4')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/YogeshPathak.jpg" height="300px" style="transform: scale(1.5); left:10px; top: 30px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="tt4" class="name-tag" style="transform: translateY(190px);">Yogesh Pathak</h2>
+                            <p class="details-tag item-text-category">Technical Skills Coordinator</p>
+                            <h2 class="item-text-title details-tag">Yogesh Pathak</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ####################### The Web/Designing Team ########################################## -->
     <br /><br />
     <hr class="seperator" />
     <br />
     <h1 class="team-center-heading">The Web <span>Dev</span> / Designing <span>Team</span></h1>
     <br />
-    <div id="webDev" class="container-cards bootstrap-off">
-        <!-- Cards -->
-        <card data-image="./assets/Images/team/RohitSaha.jpg">
-            <h1 slot="header">Rohit Saha</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Graphic Designing Lead</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Susanka Majumder</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Website Development Lead</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/MansiMaurya.jpg">
-            <h1 slot="header">Mansi Maurya</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Website Development</span>
-            </p>
-        </card>
-    </div>
+
+    <section id="work-a" class="text-center py-3">
+        <div class="container">
+            <div class="items">
+
+                <div class="item" onmouseover="hide('wd1')" onmouseout="show('wd1')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/RohitSaha.jpg" height="300px"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="wd1" class="name-tag" style="transform: translateY(185px);">Rohit Saha</h2>
+                            <p class="details-tag item-text-category">Graphic Designing Lead</p>
+                            <h2 class="item-text-title details-tag">Rohit Saha</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('wd2')" onmouseout="show('wd2')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/SusankaMajumder.jpeg" style="transform: scale(1.05);top:-30px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="wd2" class="name-tag" style="transform: translateY(195px);">Susanka Majumder</h2>
+                            <p class="details-tag item-text-category">Website Development Lead</p>
+                            <h2 class="item-text-title details-tag">Susanka Majumder</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('wd3')" onmouseout="show('wd3')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/MansiMaurya.jpg" style="transform: scale(1.1);top: 20px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="wd3" class="name-tag" style="transform: translateY(165px);">Mansi <br>Maurya</h2>
+                            <p class="details-tag item-text-category">Website Development</p>
+                            <h2 class="item-text-title details-tag">Mansi Maurya</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
     <!-- ####################### The Non-Technical Team ##########################################-->
@@ -330,25 +350,32 @@
     <br />
     <h1 class="team-center-heading">The Non-Technical <span>Team</span></h1>
     <br />
-    <div id="nonTech" class="container-cards bootstrap-off">
-        <!-- Cards -->
-        <card data-image="./assets/Images/team/BhadraSekhar.jpeg">
-            <h1 slot="header">Bhadra Sekhar</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Non-Technical Skills</span> <br> <span>Coordinator</span>
-            </p>
-        </card>
-    </div>
+
+    <section id="work-a" class="text-center py-3">
+        <div class="container">
+            <div class="items" style="grid-template-columns: repeat(1, 300px);">
+
+                <div class="item" onmouseover="hide('nt1')" onmouseout="show('nt1')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/BhadraSekhar.jpeg" height="300px"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="nt1" class="name-tag" style="transform: translateY(185px);">Bhadra Sekhar</h2>
+                            <p class="details-tag item-text-category">Non-Technical Skills Coordinator</p>
+                            <h2 class="item-text-title details-tag">Bhadra Sekhar</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- ####################### The Management Team ##########################################-->
@@ -357,73 +384,91 @@
     <br />
     <h1 class="team-center-heading">The Management <span>Team</span></h1>
     <br />
-    <div id="management" class="container-cards bootstrap-off">
-        <!-- Cards -->
-        <card data-image="./assets/Images/team/AdityaJee.jpg">
-            <h1 slot="header">Aditya Jee</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Management and Logistics</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Arka Dutta</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Management and Logistics</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/SauravChaurasia.jpg">
-            <h1 slot="header">Saurav Chaurasia</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Management and Logistics</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Vijay Daloiya</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Marketing Lead</span>
-            </p>
-        </card>
-    </div>
+
+
+    <section id="work-a" class="text-center py-3">
+        <div class="container">
+            <div class="items four_member">
+
+                <div class="item" onmouseover="hide('mt1')" onmouseout="show('mt1')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/AdityaJee.jpg" height="300px" style="transform: scale(1.2);top: 10px;left: 10px"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="mt1" class="name-tag" style="transform: translateY(185px);">Aditya Jee</h2>
+                            <p class="details-tag item-text-category">Management and Logistics</p>
+                            <h2 class="item-text-title details-tag">Aditya Jee</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('mt2')" onmouseout="show('mt2')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/default_member.png" style="top:-50px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="mt2" class="name-tag" style="transform: translateY(185px);">Arka Dutta</h2>
+                            <p class="details-tag item-text-category">Management and Logistics</p>
+                            <h2 class="item-text-title details-tag">Arka Dutta</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('mt3')" onmouseout="show('mt3')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/SauravChaurasia.jpg" height="300px" style="transform: scale(1.05); top: -50px"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="mt3" class="name-tag" style="transform: translateY(195px); ">Saurav Chaurasia</h2>
+                            <p class="details-tag item-text-category">Management and Logistics</p>
+                            <h2 class="item-text-title details-tag">Saurav Chaurasia</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('mt4')" onmouseout="show('mt4')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/VijayDaloiya.jpg" height="300px" style="transform: scale(1.2);"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="mt4" class="name-tag" style="transform: translateY(175px);">Vijay Daloiya</h2>
+                            <p class="details-tag item-text-category">Marketing Lead</p>
+                            <h2 class="item-text-title details-tag">Vijay Daloiya</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
     <!-- ####################### The Social Media Team ##########################################-->
@@ -432,65 +477,95 @@
     <br />
     <h1 class="team-center-heading">The Social Media <span>Team</span></h1>
     <br />
-    <div id="socialMedia" class="container-cards bootstrap-off">
-        <!-- Cards -->
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Ayush Ranjan Singh</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Social Media Lead</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/AshmeetSaini.png">
-            <h1 slot="header">Ashmeet Saini</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Content Lead</span>
-            </p>
-        </card>
-        <card data-image="./assets/Images/team/default_member.png">
-            <h1 slot="header">Shivani Golhani</h1>
-            <p slot="content">
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/sarvadevabhatla-rahul-9419981a2/" target="__blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <br><br>
-                <span>Publicity and Outreach Lead</span>
-            </p>
-        </card>
-    </div>
+
+
+    <section id="work-a" class="text-center py-3">
+        <div class="container">
+            <div class="items">
+
+                <div class="item" onmouseover="hide('sm1')" onmouseout="show('sm1')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/AyushRanjanSingh.jpg" style="transform: scale(1.8); left: -30px"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="sm1" class="name-tag" style="transform: translateY(185px);">Ayush Ranjan Singh</h2>
+                            <p class="details-tag item-text-category">Social Media Lead</p>
+                            <h2 class="item-text-title details-tag">Ayush Ranjan Singh</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('sm2')" onmouseout="show('sm2')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/AshmeetSahni.jpeg" style="transform: scale(1.1);top:10px;"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="sm2" class="name-tag" style="transform: translateY(195px);">Ashmeet Sahni</h2>
+                            <p class="details-tag item-text-category">Content Lead</p>
+                            <h2 class="item-text-title details-tag">Ashmeet Sahni</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" onmouseover="hide('sm3')" onmouseout="show('sm3')">
+                    <div class="item-image">
+                        <img src="assets/Images/team/ShivaniGolhani.jpg" style="transform: scale(1.5);top: -120px !important"></img>
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <h2 id="sm3" class="name-tag" style="transform: translateY(185px);">Shivani Golhani</h2>
+                            <p class="details-tag item-text-category">Publicity and Outreach Lead</p>
+                            <h2 class="item-text-title details-tag">Shivani Golhani</h2>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 10px 10px 5px;">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="details-tag" href="https://www.linkedin.com/in/" target="__blank" style="margin: 20px 0px 0px 5px;">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- <script src="./scripts/team-cards.js"></script> -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
-    <script src="./scripts/team.js"></script>
+    <!-- <script src="./scripts/team.js"></script> -->
     <script src="./scripts/app.js"></script>
 
+    <script type="text/javascript">
+        function show(id) {
+            var x = id;
+            console.log(x);
+            document.getElementById(x.toString()).style.visibility = "visible";
+        }
+
+        function hide(id) {
+            var x = id;
+            console.log(x);
+            document.getElementById(x.toString()).style.visibility = "hidden";
+        }
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164715490-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164715490-1"></script> -->
     <script>
         window.dataLayer = window.dataLayer || [];
 

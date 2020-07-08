@@ -49,12 +49,13 @@
 						</div>
 					</div>
 					<div class="def">
-						<h4><i class="fa fa-map-marker"></i> Find us at the office</h4>
-						<div class="def-sec mb-4">Chennai,India</div>
+						<h4><i class="fa fa-map-marker"></i> Find us at:</h4>
+						<div class="def-sec mb-4">National Institue of Technology, Agartala. Tripura.</div>
 					</div>
 					<div class="def">
-						<h4><i class="fa fa-phone"></i> Give us a ring</h4>
-						<div class="def-sec">Jordan +91 762321762</div>
+						<h4><i class="fa fa-phone"></i>Call Us : </h4>
+						<div class="def-sec"> Antaripa: +91 7005629709</div>
+						<div class="def-sec"> Amit :    +91 7349887888</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 contact-form p-4" data-aos="fade-left">
@@ -62,7 +63,7 @@
 					<form
 						class="form-horizontal"
 						name="myForm"
-						action="https://formspree.io/xyz@gmail.com"
+						action="https://formspree.io/xleppolb"
 						onsubmit="return validateForm('submit')"
 						method="post"
 					>
@@ -112,16 +113,20 @@
 							<span class="error-message" id="error-message"
 								><i class="fa fa-exclamation-triangle"></i> <span> Error</span></span
 							>
+
+
 							<textarea
 								name="message"
 								id="message"
 								placeholder=" "
-								rows="4"
+								rows="2"
 								oninput="return validateForm('message')"
 								class="form-control no-border"
 							></textarea>
 							<label class="form-control-placeholder" for="message">Your Message</label>
 						</div>
+
+
 						<!-- START CAPTCHA -->
 						<div class="capbox">
 							<span class="error-message" id="error-captcha"
@@ -142,13 +147,38 @@
 							</div>
 						</div>
 						<!-- END CAPTCHA -->
-						<button
-							type="submit"
-							class="btn btn-lg mt-2 center-btn-settings center-btn-settings2 mb-3"
-							id="submit-button"
-						>
-							Send Message
-						</button>
+
+						<div class="buttons">
+							<button class="blob-btn" type="submit">
+							  Send
+							  <span class="blob-btn__inner">
+								<span class="blob-btn__blobs">
+								  <span class="blob-btn__blob"></span>
+								  <span class="blob-btn__blob"></span>
+								  <span class="blob-btn__blob"></span>
+								  <span class="blob-btn__blob"></span>
+								</span>
+							  </span>
+							  
+							</button>
+							<div style="height: 0px; width: 0px;">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+								<defs>
+								  <filter id="goo">
+									<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+									<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+									<feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+								  </filter>
+								</defs>
+							  </svg>
+							</div>
+						</div>
+
+						  
+
+
+						  
+						  
 					</form>
 				</div>
 			</div>
@@ -158,18 +188,5 @@
 		<script src="./scripts/app.js"></script>
 		<script src="./scripts/aos.js"></script>
 		<script src="./scripts/contactUs.js"></script>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164715490-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-			gtag('config', 'UA-164715490-1');
-		</script>
-		<script src="./scripts/cacheImages.js"></script>
 	</body>
 </html>
