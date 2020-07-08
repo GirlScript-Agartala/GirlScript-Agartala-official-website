@@ -1925,6 +1925,20 @@ input:checked + .slider:before {
 	-webkit-animation: smallBoxAnim 1.25s alternate infinite ease-in-out;
 	animation: smallBoxAnim 1.25s alternate infinite ease-in-out;
 }
+.txtb.mr-2.mb-2.mt-4 {
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.txtb.mr-2.mb-2.mt-4:focus{
+	border: 2px solid #fb6907;
+	transition: 0.2s;
+	animation-timing-function: ease;
+
+}
+.logo{
+	padding-top: 10px;
+	transform: scale(1.3); 
+}
 @-webkit-keyframes smallBoxAnim {
 	0% {
 		-webkit-transform: scale(0.2);

@@ -99,7 +99,7 @@ let footer = $(`
 <div class="container">
   <div class="row">
 	<div class="col-lg-6 col-md-4 footer-logo"> 
-		<img data-src="assets/Images/logo/logo.png" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Girl Script Chennai Chapter Logo" class="logo" aria-label="Girl Script Chennai Chapter Logo">
+		<img data-src="assets/Images/logo/GS AGARTALA.png" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Girl Script Chennai Chapter Logo" class="logo" aria-label="Girl Script Chennai Chapter Logo">
 	</div>
 	<div class="col-lg-6 col-md-8 mb-5" id="footer-c">		
 	  <br> 
