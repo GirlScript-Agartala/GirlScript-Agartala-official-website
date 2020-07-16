@@ -229,7 +229,80 @@ Blog Cards
 	cursor: pointer;
 }
 
+.blogs-section .container-fluid{
+	background-color:#f0582a;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+
+.blogs-section .row .col{
+	padding-top: 25px;
+	font-size: 15px;
+	color:black;
+	font-weight: bold;
+}
+
+.blogtitlerow{
+	padding-top: 10px;
+}
+
+
+.animationtitletag{
+	width:10%;
+	height: 5px;
+	border-bottom-right-radius: 10px ;
+	background: rgb(221, 221, 221);
+	transition: width 2s;
+}
+
+.animationtitletag:hover{
+	width: 60%;
+}
+
+.titleblog{
+	color: black;
+	margin-top: 3px;
+	font-size: 30px;
+	font-family: 'Libre Baskerville', serif;	
+}
+
+
+.authorname{
+	font-family: 'Merienda One', cursive;
+}
+
+.col li{
+	list-style: none;
+	font-size: 20px;
+}
+em{	
+	font-size: 14px;
+	color: aliceblue;
+	
+}
+
+.blogs-section .row .col div{
  
+	font-size: 20px;
+	color:black;
+	font-weight: bold;
+}
+
+.blogs-section .container-fluid .row .col .align-self-start {
+	padding-bottom: 5px;
+
+
+}
+
+#small-text-date{
+	color: black;
+
+	
+}
+
+
 
 @media only screen and (max-width: 430px) {
 	.heading-blog {
