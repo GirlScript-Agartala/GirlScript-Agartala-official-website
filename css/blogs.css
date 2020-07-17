@@ -264,7 +264,8 @@ Blog Cards
 .titleblog{
 	color: black;
 	margin-top: 3px;
-	font-size: 30px;
+	font-size: 26px;
+	max-width: 100%;
 	font-family: 'Libre Baskerville', serif;	
 }
 
@@ -303,6 +304,24 @@ em{
 }
 
 
+.parawhitebg {
+	background-color:aliceblue;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.parablackbg{
+	background-color: rgb(7, 7, 7);
+	color: azure;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-weight: bold;
+}
+
+.parawhiteuder{
+	border-radius: 4px;
+	border-bottom: 3px solid rgb(250, 216, 122) ;
+}
 
 @media only screen and (max-width: 430px) {
 	.heading-blog {
