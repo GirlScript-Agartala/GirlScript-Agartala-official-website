@@ -14,7 +14,7 @@ function validateEmail(emailID) {
 		dotpos = emailID.lastIndexOf('.');
     return (atpos < 1 || dotpos - atpos < 2);
 }
-console.log("JS loaded successfully ~Winter Soldier")
+console.log("Contact Form loaded")
 
 function displayError(tagName, tag, lessLength = false) {
 	let errorBlock = $(`#error-${tagName}`);
