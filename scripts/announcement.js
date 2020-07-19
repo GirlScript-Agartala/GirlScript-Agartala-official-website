@@ -1,15 +1,17 @@
-const announcementTimeline = [{
+const announcementTimeline = [
+    {
+        eventName: 'LinkedIn - its myths and effectiveness',
+        eventDescription: `Our Speakers-<strong>Ishan, Bhavishya & Harsh</strong> shared their valuable thoughts on LinkedIn.`,
+        eventDate: 'July 6, 2020',
+        eventPageLink: './event1.html'
+     },
+    {
         eventName: 'Web Weave',
         eventDescription: `A 3-day comprehensive session on <strong>Web Development</strong>. From <strong>June 28th - 30th, 2020</strong>.`,
         eventDate: 'June 28, 2020',
         eventPageLink: './event1.html'
     },
-    // {
-    //     eventName: 'Code Camp',
-    //     eventDescription: `It is a coding camp where everyone can participate and learn about different technologies.`,
-    //     eventDate: 'May 20, 2020',
-    //     eventPageLink: './event1.html'
-    // },
+    
     // {
     //     eventName: 'Code Camp',
     //     eventDescription: `It is a coding camp where everyone can participate and learn about different technologies.`,
@@ -18,11 +20,19 @@ const announcementTimeline = [{
     // }
 ];
 
-const recentEventsDetails = [{
+const recentEventsDetails = [
+    {
+        coverImage: 'assets/Images/announcement/Linkedinsession.jpg',
+        eventName: 'LinkedIn - Myths & Effectiveness',
+        altName: 'LinkedIn Logo',
+        eventDescription: `Our Speakers enlightened us with their views on how LinkedIn can be leveraged for success effectively.`,
+        referencePage: '#!'
+    },
+    {
         coverImage: 'assets/Images/announcement/webWeave.jpg',
         eventName: 'Web Weave',
         altName: 'Web Weave Logo',
-        eventDescription: `Just like the eye is the window to the soul, the website is the window to business, making the customers have a taste of what you have to offer and enticing them to dive deeper for more.`,
+        eventDescription: `As the eye is the window to the soul, website is the window to business, making the customers have a taste of what you have to offer and enticing them to dive deeper for more.`,
         referencePage: '#!'
     },
     {
