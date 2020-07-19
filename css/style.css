@@ -718,6 +718,7 @@ footer {
 a.fa-instagram,
 a.fa-twitter,
 a.fa-github,
+a.fa-facebook,
 a.fa-linkedin {
 	color: var(--theme-color);
 }
