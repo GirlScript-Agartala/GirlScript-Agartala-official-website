@@ -702,8 +702,8 @@ footer {
 }
 
 .social-media-intro a {
-	margin-right: 25px;
-	font-size: 3rem;
+	margin-right: 21px;
+	font-size:40px;
 	text-decoration: none;
 }
 
@@ -713,6 +713,7 @@ footer {
 	-o-transition: 0.5s;
 	transition: 0.5s;
 }
+
 
 a.fa-instagram,
 a.fa-twitter,
@@ -735,6 +736,9 @@ a.fa-linkedin {
 
 .fa-linkedin:hover {
 	color: #0e76a8;
+}
+.fa-facebook:hover{
+	color: #3b5998;
 }
 
 .btn-spl {
