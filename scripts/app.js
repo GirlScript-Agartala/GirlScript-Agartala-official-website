@@ -116,10 +116,11 @@ let footer = $(`
    <center>
 
 		<div class="social-media">
-		  <a class="fa fa-twitter"  href="https://twitter.com/girlscriptch"></a>
-		  <a class="fa fa-instagram" href="https://www.instagram.com/girlscriptchennai/"></a>
-		  <a class="fa fa-github" href="https://github.com/girlscriptchennai"></a>
-		  <a class="fa fa-linkedin" href="https://www.linkedin.com/company/girlscript-chennai/"></a>
+			<a class="fa fa-twitter" href="https://twitter.com/GirlScriptAGT?s=09"></a>
+			<a class="fa fa-instagram" href="https://www.instagram.com/girlscript_agartala/"></a>
+			<a class="fa fa-github" href="https://github.com/GirlScript-Agartala"></a>
+			<a class="fa fa-facebook" href="https://www.facebook.com/girlscript.agartala.7"></a>
+			<a class="fa fa-linkedin" href="https://www.linkedin.com/company/girlscript-agartala"></a>
 		</div>
 		  <h6 class="footer-h3">Made with ♥</h6>
 	</center>
