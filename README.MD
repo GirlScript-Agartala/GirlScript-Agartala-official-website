@@ -1,4 +1,8 @@
-# GirlScript-Agartala Official Website
+# GirlScript Agartala
+
+#Welcome!
+
+The website contain official website of GirlScript Agartala
 
 Official Website: https://girlscript-agartala.netlify.app
 
