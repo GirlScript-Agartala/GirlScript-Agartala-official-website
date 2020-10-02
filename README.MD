@@ -1,12 +1,12 @@
 # GirlScript Agartala
 
-<b>Welcome!<b>
+<b>Welcome!</b>
 
 The website contain official website of GirlScript Agartala
 
 Official Website: https://girlscript-agartala.netlify.app
 
-Contributing
+<b>Contributing</b>
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the maintainers of this repository before making a change. Your change will otherwise not be accepted.
 
 # Core Team Members:
