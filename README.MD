@@ -1,7 +1,8 @@
 # GirlScript Agartala
+<b>Promoting diversity and inclusion in tech by supporting women and bringing opportunities to one platform</b><br>
 
 <b>Welcome!</b><br>
-The website contain official website of GirlScript Agartala
+This repository contain official website of GirlScript Agartala
 
 <b>Official Website:</b> https://girlscript-agartala.netlify.app
 
