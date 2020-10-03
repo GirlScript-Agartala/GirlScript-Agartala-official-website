@@ -20,8 +20,8 @@ When contributing to this repository, please first discuss the change you wish t
 - Rohit Saha              `(Graphic Designing Lead)`
 - Susanka Majumder        `(Website Development Lead)`
 - Mansi Maurya            `(Website Development)`
-- Jashaswimalya Acharjee	`Technical Skills Coordinator`
-- Yogesh Pathak	          `Technical Skills Coordinator`
+- Jashaswimalya Acharjee	`(Technical Skills Coordinator)`
+- Yogesh Pathak	          `(Technical Skills Coordinator)`
 - Aditya Jee              `(Management and Logistics)`
 - Arka Dutta              `(Management and Logistics)`
 - Saurav Chaurasia        `(Management and Logistics)`
