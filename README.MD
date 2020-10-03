@@ -1,6 +1,13 @@
-# GirlScript-Agartala Official Website
+# GirlScript Agartala
+<b>Promoting diversity and inclusion in tech by supporting women and bringing opportunities to one platform</b><br>
 
-Official Website: https://girlscript-agartala.netlify.app
+<b>Welcome!</b><br>
+This repository contain official website of GirlScript Agartala
+
+<b>Official Website:</b> https://girlscript-agartala.netlify.app
+
+<b>Contributing</b><br>
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the maintainers of this repository before making a change. Your change will otherwise not be accepted.
 
 # Core Team Members:
 
@@ -13,8 +20,8 @@ Official Website: https://girlscript-agartala.netlify.app
 - Rohit Saha              `(Graphic Designing Lead)`
 - Susanka Majumder        `(Website Development Lead)`
 - Mansi Maurya            `(Website Development)`
-- Jashaswimalya Acharjee	`Technical Skills Coordinator`
-- Yogesh Pathak	          `Technical Skills Coordinator`
+- Jashaswimalya Acharjee	`(Technical Skills Coordinator)`
+- Yogesh Pathak	          `(Technical Skills Coordinator)`
 - Aditya Jee              `(Management and Logistics)`
 - Arka Dutta              `(Management and Logistics)`
 - Saurav Chaurasia        `(Management and Logistics)`
